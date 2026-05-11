@@ -1,0 +1,6 @@
+node --inspect-brk -r ts-node/register src/index.ts
+node --inspect-brk dist/index.js
+node dist/index.js
+npx ts-node src/index.ts
+
+npx tsc

@@ -1,0 +1,4414 @@
+{
+    "mainMenu": {
+        "type": 1,
+        "title": "Main",
+        "items": [
+            {
+                "label": "History",
+                "type": 10,
+                "data": {
+                    "subMenuGraphic": {
+                        "submenu": "MenuId_0x8034c34"
+                    }
+                }
+            },
+            {
+                "label": "Chart",
+                "type": 10,
+                "data": {
+                    "subMenuGraphic": {
+                        "submenu": "MenuId_0x803ea3c"
+                    }
+                }
+            },
+            {
+                "label": "Call BTN",
+                "type": 10,
+                "data": {
+                    "subMenuGraphic": {
+                        "submenu": "MenuId_0x80324d4"
+                    }
+                }
+            },
+            {
+                "label": "Monitor",
+                "type": 10,
+                "data": {
+                    "subMenuGraphic": {
+                        "submenu": "MenuId_0x803b0c8"
+                    }
+                }
+            },
+            {
+                "label": "Quick Set",
+                "type": 10,
+                "data": {
+                    "subMenuGraphic": {
+                        "submenu": "MenuId_0x804000c"
+                    }
+                }
+            },
+            {
+                "label": "Full Set",
+                "type": 10,
+                "data": {
+                    "subMenuGraphic": {
+                        "submenu": "MenuId_0x803f7fc"
+                    }
+                }
+            },
+            {
+                "label": "Information",
+                "type": 10,
+                "data": {
+                    "subMenuGraphic": {
+                        "submenu": "MenuId_0x80365a0"
+                    }
+                }
+            },
+            {
+                "label": "Process",
+                "type": 10,
+                "data": {
+                    "subMenuGraphic": {
+                        "submenu": "MenuId_0x803c204"
+                    }
+                }
+            },
+            {
+                "label": "IOT",
+                "type": 10,
+                "data": {
+                    "subMenuGraphic": {
+                        "submenu": "MenuId_0x8036638"
+                    }
+                }
+            }
+        ],
+        "itemCount": 9
+    },
+    "MenuId_0x804000c": {
+        "type": 0,
+        "title": "Quick_Set",
+        "items": [
+            {
+                "label": "Num Of Stop",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b464"
+                }
+            },
+            {
+                "label": "Travel Time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803d208"
+                }
+            },
+            {
+                "label": "Door Time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033a74"
+                }
+            },
+            {
+                "label": "Sound",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803cd30"
+                }
+            },
+            {
+                "label": "Floor",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803477c"
+                }
+            },
+            {
+                "label": "Landing",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80367b0"
+                }
+            },
+            {
+                "label": "Standby Time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803cd7c"
+                }
+            },
+            {
+                "label": "Leveling Time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80367fc"
+                }
+            }
+        ],
+        "itemCount": 8
+    },
+    "MenuId_0x803f7fc": {
+        "type": 0,
+        "title": "Full_Set",
+        "items": [
+            {
+                "label": "General",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803fb28"
+                }
+            },
+            {
+                "label": "Advance",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80321fc"
+                }
+            },
+            {
+                "label": "Floor",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803467c"
+                }
+            },
+            {
+                "label": "PB Hall",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803bb3c"
+                }
+            },
+            {
+                "label": "PB Cabin",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b9c4"
+                }
+            }
+        ],
+        "itemCount": 5
+    },
+    "MenuId_0x803f8c0": {
+        "type": 0,
+        "title": "General",
+        "items": [
+            {
+                "label": "door",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0"
+                }
+            },
+            {
+                "label": "time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0"
+                }
+            },
+            {
+                "label": "type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0"
+                }
+            }
+        ],
+        "itemCount": 3
+    },
+    "MenuId_0x80365a0": {
+        "type": 0,
+        "title": "Information",
+        "items": [
+            {
+                "label": "Device",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803359c"
+                }
+            },
+            {
+                "label": "Day Counter",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803337c"
+                }
+            },
+            {
+                "label": "Activation",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803200c"
+                }
+            },
+            {
+                "label": "Debug Mode",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033460"
+                }
+            },
+            {
+                "label": "QC Mode",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c250"
+                }
+            }
+        ],
+        "itemCount": 5
+    },
+    "MenuId_0x803467c": {
+        "type": 8,
+        "title": "Floor Setting",
+        "items": [
+            {
+                "label": "Floor",
+                "type": 15,
+                "data": {
+                    "multyGroupProperty": {
+                        "numOfGroup": 1
+                    }
+                }
+            },
+            {
+                "label": "Seg L",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1379,
+                        "def": 1379,
+                        "numOptions": 24,
+                        "options": "ListId_0x8036bc0"
+                    }
+                }
+            },
+            {
+                "label": "Seg R",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1439,
+                        "def": 1439,
+                        "numOptions": 24,
+                        "options": "ListId_0x8036bc0"
+                    }
+                }
+            },
+            {
+                "label": "Talk",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1499,
+                        "def": 1499,
+                        "numOptions": 81,
+                        "options": "ListId_0x8036c54"
+                    }
+                }
+            },
+            {
+                "label": "1CF Del UP",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1259,
+                        "def": 1259,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": -20,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            },
+            {
+                "label": "1CF Del DN",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1319,
+                        "def": 1319,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": -20,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            },
+            {
+                "label": "CF3 jumpN",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1679,
+                        "def": 1679,
+                        "numOptions": 5,
+                        "options": "ListId_0x80368ec"
+                    }
+                }
+            },
+            {
+                "label": "CF3 jump1",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1619,
+                        "def": 1619,
+                        "numOptions": 3,
+                        "options": "ListId_0x80368e0"
+                    }
+                }
+            },
+            {
+                "label": "Jp1 UP",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1859,
+                        "def": 1859,
+                        "numOptions": 4,
+                        "options": "ListId_0x8036c20"
+                    }
+                }
+            },
+            {
+                "label": "Jp1 DN",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1919,
+                        "def": 1919,
+                        "numOptions": 4,
+                        "options": "ListId_0x8036c20"
+                    }
+                }
+            },
+            {
+                "label": "Offset UP",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1739,
+                        "def": 1739,
+                        "minValue": 0,
+                        "maxValue": 255,
+                        "offset": 128,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "mm"
+                    }
+                }
+            },
+            {
+                "label": "Offset DN",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1799,
+                        "def": 1799,
+                        "minValue": 0,
+                        "maxValue": 255,
+                        "offset": 128,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "mm"
+                    }
+                }
+            }
+        ],
+        "itemCount": 12
+    },
+    "MenuId_0x803bb3c": {
+        "type": 8,
+        "title": "PB Setting",
+        "items": [
+            {
+                "label": "PB Hall",
+                "type": 15,
+                "data": {
+                    "multyGroupProperty": {
+                        "numOfGroup": -12733
+                    }
+                }
+            },
+            {
+                "label": "Floor",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1019,
+                        "def": 1019,
+                        "minValue": 1,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": ""
+                    }
+                }
+            },
+            {
+                "label": "Door1",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 659,
+                        "def": 659,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036b3c"
+                    }
+                }
+            },
+            {
+                "label": "Door2",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 719,
+                        "def": 719,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036b3c"
+                    }
+                }
+            },
+            {
+                "label": "Door3",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 779,
+                        "def": 779,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036b3c"
+                    }
+                }
+            },
+            {
+                "label": "Dir",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1139,
+                        "def": 1139,
+                        "numOptions": 4,
+                        "options": "ListId_0x8036b2c"
+                    }
+                }
+            }
+        ],
+        "itemCount": 6
+    },
+    "MenuId_0x803b9c4": {
+        "type": 8,
+        "title": "PB Setting",
+        "items": [
+            {
+                "label": "PB Cabin",
+                "type": 15,
+                "data": {
+                    "multyGroupProperty": {
+                        "numOfGroup": -12733
+                    }
+                }
+            },
+            {
+                "label": "Floor",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1079,
+                        "def": 1079,
+                        "minValue": 1,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": ""
+                    }
+                }
+            },
+            {
+                "label": "Door1",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 839,
+                        "def": 839,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036b3c"
+                    }
+                }
+            },
+            {
+                "label": "Door2",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 899,
+                        "def": 899,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036b3c"
+                    }
+                }
+            },
+            {
+                "label": "Door3",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 959,
+                        "def": 959,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036b3c"
+                    }
+                }
+            },
+            {
+                "label": "type",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1199,
+                        "def": 1199,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036b24"
+                    }
+                }
+            }
+        ],
+        "itemCount": 6
+    },
+    "MenuId_0x8036638": {
+        "type": 0,
+        "title": "IOT",
+        "items": [
+            {
+                "label": "Serial",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80365ec"
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80365ec": {
+        "type": 4,
+        "title": "IOT_Serial",
+        "items": [
+            {
+                "label": "Serial",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1985,
+                        "def": 1985,
+                        "numOptions": 3,
+                        "options": "ListId_0x20005910"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033460": {
+        "type": 4,
+        "title": "Debug",
+        "items": [
+            {
+                "label": "Debug",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1979,
+                        "def": 1979,
+                        "numOptions": 2,
+                        "options": "ListId_0x20005650"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c250": {
+        "type": 4,
+        "title": "QCmode",
+        "items": [
+            {
+                "label": "QcMode",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1990,
+                        "def": 1990,
+                        "numOptions": 2,
+                        "options": "ListId_0x20005a74"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80321fc": {
+        "type": 0,
+        "title": "Advance",
+        "items": [
+            {
+                "label": "Elevator Speed",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8034078"
+                }
+            },
+            {
+                "label": "Type Elevator",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803d254"
+                }
+            },
+            {
+                "label": "Hardware",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80349c8"
+                }
+            },
+            {
+                "label": "Drive",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033d2c"
+                }
+            },
+            {
+                "label": "Timer Setting",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803d1bc"
+                }
+            },
+            {
+                "label": "Phase Control",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803bf88"
+                }
+            },
+            {
+                "label": "Polarity",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c140"
+                }
+            },
+            {
+                "label": "Doublex",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033164"
+                }
+            }
+        ],
+        "itemCount": 8
+    },
+    "MenuId_0x80349c8": {
+        "type": 0,
+        "title": "Hardware",
+        "items": [
+            {
+                "label": "Main Board",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80349b8"
+                }
+            },
+            {
+                "label": "Carcodec",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8032b54"
+                }
+            }
+        ],
+        "itemCount": 2
+    },
+    "MenuId_0x803d254": {
+        "type": 4,
+        "title": "Type_Elevator",
+        "items": [
+            {
+                "label": "Elevator",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 0,
+                        "def": 0,
+                        "numOptions": 4,
+                        "options": "ListId_0x8036d98"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8034078": {
+        "type": 3,
+        "title": "El_Speed",
+        "items": [
+            {
+                "label": "El Speed",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 78,
+                        "def": 78,
+                        "minValue": 0,
+                        "maxValue": 40,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "m/s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803d5ec": {
+        "type": 3,
+        "title": "URA Delay",
+        "items": [
+            {
+                "label": "URA Delay",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 44,
+                        "def": 44,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803cd7c": {
+        "type": 3,
+        "title": "Standby_Time",
+        "items": [
+            {
+                "label": "Standby Time",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 31,
+                        "def": 31,
+                        "minValue": 0,
+                        "maxValue": 200,
+                        "offset": 0,
+                        "factor": 5,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803dab4": {
+        "type": 3,
+        "title": "_1CF_Delay_All",
+        "items": [
+            {
+                "label": "1Cf Del All",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 44,
+                        "def": 44,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": -20,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803cdc8": {
+        "type": 3,
+        "title": "TC_ReleaseDel",
+        "items": [
+            {
+                "label": "TCReleaseDel",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 29,
+                        "def": 29,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803d2a0": {
+        "type": 3,
+        "title": "UDReleaseDel",
+        "items": [
+            {
+                "label": "UDReleaseDel",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 28,
+                        "def": 28,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803bb88": {
+        "type": 3,
+        "title": "PB_Debunce",
+        "items": [
+            {
+                "label": "Debunce",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1981,
+                        "def": 1981,
+                        "minValue": 10,
+                        "maxValue": 200,
+                        "offset": 0,
+                        "factor": -100,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803d1bc": {
+        "type": 0,
+        "title": "Timer_Setting",
+        "items": [
+            {
+                "label": "UD ReleaseDel",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803d2a0"
+                }
+            },
+            {
+                "label": "TC ReleaseDel",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803cdc8"
+                }
+            },
+            {
+                "label": "1CF Del All",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803dab4"
+                }
+            },
+            {
+                "label": "Standby Time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803cd7c"
+                }
+            },
+            {
+                "label": "PB Debunce",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803bb88"
+                }
+            }
+        ],
+        "itemCount": 5
+    },
+    "MenuId_0x803c570": {
+        "type": 0,
+        "title": "Relay_Time",
+        "items": [
+            {
+                "label": "On Delay",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c3e8"
+                }
+            },
+            {
+                "label": "Off Delay",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c39c"
+                }
+            }
+        ],
+        "itemCount": 2
+    },
+    "MenuId_0x803c39c": {
+        "type": 3,
+        "title": "Off_Delay",
+        "items": [
+            {
+                "label": "Off Delay",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 76,
+                        "def": 76,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c3e8": {
+        "type": 3,
+        "title": "On_Delay",
+        "items": [
+            {
+                "label": "On Delay",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 75,
+                        "def": 75,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c140": {
+        "type": 0,
+        "title": "Polarity_Setting",
+        "items": [
+            {
+                "label": "Motor Pol",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b114"
+                }
+            },
+            {
+                "label": "Enc Pol",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80341f4"
+                }
+            }
+        ],
+        "itemCount": 2
+    },
+    "MenuId_0x803b114": {
+        "type": 4,
+        "title": "Motor_Pol",
+        "items": [
+            {
+                "label": "Motor Pol",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 80,
+                        "def": 80,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036b60"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80341f4": {
+        "type": 4,
+        "title": "Enc_Pol",
+        "items": [
+            {
+                "label": "Enc Pol",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 79,
+                        "def": 79,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036b60"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033d2c": {
+        "type": 0,
+        "title": "Drive",
+        "items": [
+            {
+                "label": "Connection",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033b0c"
+                }
+            },
+            {
+                "label": "S/A Speeds",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c938"
+                }
+            },
+            {
+                "label": "Par Speeds",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803be00"
+                }
+            },
+            {
+                "label": "Rs485",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033c2c"
+                }
+            }
+        ],
+        "itemCount": 4
+    },
+    "MenuId_0x803c938": {
+        "type": 0,
+        "title": "S/A_Speeds",
+        "items": [
+            {
+                "label": "Lowest Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c784"
+                }
+            },
+            {
+                "label": "Level Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c608"
+                }
+            },
+            {
+                "label": "Slow Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c774"
+                }
+            },
+            {
+                "label": "Medium Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c6dc"
+                }
+            },
+            {
+                "label": "Max Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c690"
+                }
+            },
+            {
+                "label": "Rev Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c728"
+                }
+            },
+            {
+                "label": "Learn Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c5bc"
+                }
+            }
+        ],
+        "itemCount": 7
+    },
+    "MenuId_0x803be00": {
+        "type": 0,
+        "title": "Par_Speeds",
+        "items": [
+            {
+                "label": "Level Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b71c"
+                }
+            },
+            {
+                "label": "Slow Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b84c"
+                }
+            },
+            {
+                "label": "Medium Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b7b4"
+                }
+            },
+            {
+                "label": "Max Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b768"
+                }
+            },
+            {
+                "label": "Rev Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b800"
+                }
+            },
+            {
+                "label": "Learn Sp",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b6d0"
+                }
+            }
+        ],
+        "itemCount": 6
+    },
+    "MenuId_0x803c5bc": {
+        "type": 3,
+        "title": "S/A_Learn_Sp",
+        "items": [
+            {
+                "label": "Learn SP",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 51,
+                        "def": 51,
+                        "minValue": 1,
+                        "maxValue": 50,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c728": {
+        "type": 3,
+        "title": "S/A_Rev_Sp",
+        "items": [
+            {
+                "label": "Rev SP",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 50,
+                        "def": 50,
+                        "minValue": 10,
+                        "maxValue": 30,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c690": {
+        "type": 3,
+        "title": "S/A_Max_Sp",
+        "items": [
+            {
+                "label": "Max SP",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 49,
+                        "def": 49,
+                        "minValue": 10,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c6dc": {
+        "type": 3,
+        "title": "S/A_Med_Sp",
+        "items": [
+            {
+                "label": "Med SP",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 53,
+                        "def": 53,
+                        "minValue": 1,
+                        "maxValue": 70,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c774": {
+        "type": 3,
+        "title": "S/A_Slow_Sp",
+        "items": [
+            {
+                "label": "Slow SP",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 52,
+                        "def": 52,
+                        "minValue": 1,
+                        "maxValue": 20,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c608": {
+        "type": 3,
+        "title": "S/A_Level_Sp",
+        "items": [
+            {
+                "label": "Level SP",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 54,
+                        "def": 54,
+                        "minValue": 1,
+                        "maxValue": 10,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c784": {
+        "type": 3,
+        "title": "S/A_Lowest_Sp",
+        "items": [
+            {
+                "label": "Lowest SP",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1984,
+                        "def": 1984,
+                        "minValue": 1,
+                        "maxValue": 50,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b6d0": {
+        "type": 4,
+        "title": "Par_Learn_SP",
+        "items": [
+            {
+                "label": "Learn SP",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 57,
+                        "def": 57,
+                        "numOptions": 7,
+                        "options": "ListId_0x8036b44"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b800": {
+        "type": 4,
+        "title": "Par_Rev_SP",
+        "items": [
+            {
+                "label": "Rev SP",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 56,
+                        "def": 56,
+                        "numOptions": 7,
+                        "options": "ListId_0x8036b44"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b768": {
+        "type": 4,
+        "title": "Par_Max_SP",
+        "items": [
+            {
+                "label": "Max SP",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 55,
+                        "def": 55,
+                        "numOptions": 7,
+                        "options": "ListId_0x8036b44"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b7b4": {
+        "type": 4,
+        "title": "Par_Med_SP",
+        "items": [
+            {
+                "label": "Med SP",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 59,
+                        "def": 59,
+                        "numOptions": 7,
+                        "options": "ListId_0x8036b44"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b84c": {
+        "type": 4,
+        "title": "Par_Slow_SP",
+        "items": [
+            {
+                "label": "Slow SP",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 58,
+                        "def": 58,
+                        "numOptions": 7,
+                        "options": "ListId_0x8036b44"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b71c": {
+        "type": 4,
+        "title": "Par_Level_SP",
+        "items": [
+            {
+                "label": "Level SP",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 60,
+                        "def": 60,
+                        "numOptions": 7,
+                        "options": "ListId_0x8036b44"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033b0c": {
+        "type": 4,
+        "title": "Drive_Connection",
+        "items": [
+            {
+                "label": "Connection",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 61,
+                        "def": 61,
+                        "numOptions": 4,
+                        "options": "ListId_0x803695c"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033c2c": {
+        "type": 0,
+        "title": "RS485",
+        "items": [
+            {
+                "label": "Baud Rate",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033b58"
+                }
+            },
+            {
+                "label": "Format",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033ba4"
+                }
+            }
+        ],
+        "itemCount": 2
+    },
+    "MenuId_0x8033b58": {
+        "type": 4,
+        "title": "BaudRate",
+        "items": [
+            {
+                "label": "BaudRate",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 63,
+                        "def": 63,
+                        "numOptions": 6,
+                        "options": "ListId_0x8036b68"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033ba4": {
+        "type": 4,
+        "title": "Format",
+        "items": [
+            {
+                "label": "Format",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 62,
+                        "def": 62,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036b80"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803bfd4": {
+        "type": 5,
+        "title": "Phase_Errors",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 89,
+                        "def": 89,
+                        "numOptions": 2,
+                        "numItems": 5,
+                        "options": "ListId_0x20005940",
+                        "itemLabels": "ListId_0x2000592c"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803bf88": {
+        "type": 0,
+        "title": "Phase_Control",
+        "items": [
+            {
+                "label": "Active line",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b4b0"
+                }
+            },
+            {
+                "label": "Errors",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803bfd4"
+                }
+            },
+            {
+                "label": "Over Volt",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c020"
+                }
+            },
+            {
+                "label": "Under Volt",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c0b8"
+                }
+            },
+            {
+                "label": "Under Delay",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803c06c"
+                }
+            }
+        ],
+        "itemCount": 5
+    },
+    "MenuId_0x803c0b8": {
+        "type": 3,
+        "title": "Phc_UnderV",
+        "items": [
+            {
+                "label": "Under Volt",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 87,
+                        "def": 87,
+                        "minValue": 170,
+                        "maxValue": 200,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "v"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c020": {
+        "type": 3,
+        "title": "Phc_OverV",
+        "items": [
+            {
+                "label": "Over Volt",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 86,
+                        "def": 86,
+                        "minValue": 210,
+                        "maxValue": 255,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "v"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803c06c": {
+        "type": 3,
+        "title": "Under-V_Delay",
+        "items": [
+            {
+                "label": "Under-V Delay",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 88,
+                        "def": 88,
+                        "minValue": 0,
+                        "maxValue": 10,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b4b0": {
+        "type": 4,
+        "title": "N-Line",
+        "items": [
+            {
+                "label": "Active line",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 85,
+                        "def": 85,
+                        "numOptions": 2,
+                        "options": "ListId_0x2000591c"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033164": {
+        "type": 0,
+        "title": "DBL",
+        "items": [
+            {
+                "label": "Mode",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80331b0"
+                }
+            },
+            {
+                "label": "TimeOut",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80333c8"
+                }
+            },
+            {
+                "label": "Time_OTF",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033414"
+                }
+            }
+        ],
+        "itemCount": 3
+    },
+    "MenuId_0x80331b0": {
+        "type": 4,
+        "title": "Mode",
+        "items": [
+            {
+                "label": "DBL Mode",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1980,
+                        "def": 1980,
+                        "numOptions": 3,
+                        "options": "ListId_0x20005644"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033414": {
+        "type": 3,
+        "title": "OTF_time",
+        "items": [
+            {
+                "label": "OTF_time",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1986,
+                        "def": 1986,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "M"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80333c8": {
+        "type": 3,
+        "title": "TimeOut",
+        "items": [
+            {
+                "label": "TimeOut",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1987,
+                        "def": 1987,
+                        "minValue": 0,
+                        "maxValue": 250,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8032b54": {
+        "type": 0,
+        "title": "Carcodec",
+        "items": [
+            {
+                "label": "Inputs",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80325b8"
+                }
+            },
+            {
+                "label": "Outputs",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8032604"
+                }
+            },
+            {
+                "label": "Inputs Type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8032520"
+                }
+            },
+            {
+                "label": "Outputs Type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803256c"
+                }
+            },
+            {
+                "label": "Push Button",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80329dc"
+                }
+            },
+            {
+                "label": "Numrator",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8032834"
+                }
+            }
+        ],
+        "itemCount": 6
+    },
+    "MenuId_0x80325b8": {
+        "type": 5,
+        "title": "C Input",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 300,
+                        "def": 300,
+                        "numOptions": 20,
+                        "numItems": 15,
+                        "options": "ListId_0x2000568c",
+                        "itemLabels": "ListId_0x20005948"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8032604": {
+        "type": 5,
+        "title": "C Input",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 400,
+                        "def": 400,
+                        "numOptions": 30,
+                        "numItems": 15,
+                        "options": "ListId_0x200056dc",
+                        "itemLabels": "ListId_0x20005984"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8032520": {
+        "type": 5,
+        "title": "In Type",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 350,
+                        "def": 350,
+                        "numOptions": 2,
+                        "numItems": 15,
+                        "options": "ListId_0x20005908",
+                        "itemLabels": "ListId_0x20005948"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803256c": {
+        "type": 5,
+        "title": "Out Type",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 450,
+                        "def": 450,
+                        "numOptions": 2,
+                        "numItems": 15,
+                        "options": "ListId_0x20005908",
+                        "itemLabels": "ListId_0x20005984"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8032834": {
+        "type": 0,
+        "title": "Carcodec",
+        "items": [
+            {
+                "label": "Type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8032734"
+                }
+            },
+            {
+                "label": "ParallelSetting",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803269c"
+                }
+            },
+            {
+                "label": "Sleep Light",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80326e8"
+                }
+            },
+            {
+                "label": "Active Light",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8032650"
+                }
+            }
+        ],
+        "itemCount": 4
+    },
+    "MenuId_0x8032650": {
+        "type": 3,
+        "title": "Active_Light",
+        "items": [
+            {
+                "label": "Active Light",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 72,
+                        "def": 72,
+                        "minValue": 0,
+                        "maxValue": 20,
+                        "offset": 0,
+                        "factor": 5,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8032734": {
+        "type": 4,
+        "title": "Car_PB_Type",
+        "items": [
+            {
+                "label": "C NUM Type",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 84,
+                        "def": 84,
+                        "numOptions": 3,
+                        "options": "ListId_0x20005668"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803269c": {
+        "type": 5,
+        "title": "C_NUM_Parallel",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 630,
+                        "def": 630,
+                        "numOptions": 30,
+                        "numItems": 16,
+                        "options": "ListId_0x200056dc",
+                        "itemLabels": "ListId_0x20005a7c"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80326e8": {
+        "type": 3,
+        "title": "Sleep_Light",
+        "items": [
+            {
+                "label": "Sleep Light",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 71,
+                        "def": 71,
+                        "minValue": 0,
+                        "maxValue": 20,
+                        "offset": 0,
+                        "factor": 5,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80329dc": {
+        "type": 0,
+        "title": "Carcodec PB",
+        "items": [
+            {
+                "label": "Type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8032918"
+                }
+            },
+            {
+                "label": "ParallelSetting",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80328cc"
+                }
+            },
+            {
+                "label": "Canceller",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8032844"
+                }
+            }
+        ],
+        "itemCount": 3
+    },
+    "MenuId_0x8032918": {
+        "type": 4,
+        "title": "Car_PB_Type",
+        "items": [
+            {
+                "label": "C PB Type",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 82,
+                        "def": 82,
+                        "numOptions": 2,
+                        "options": "ListId_0x20005674"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80328cc": {
+        "type": 5,
+        "title": "C_PB_Parallel",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 550,
+                        "def": 550,
+                        "numOptions": 13,
+                        "numItems": 12,
+                        "options": "ListId_0x20005870",
+                        "itemLabels": "ListId_0x20005840"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8032844": {
+        "type": 4,
+        "title": "Car_PB_Cancel",
+        "items": [
+            {
+                "label": "PB Cancel",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 74,
+                        "def": 74,
+                        "numOptions": 2,
+                        "options": "ListId_0x20005660"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80349b8": {
+        "type": 0,
+        "title": "H Main",
+        "items": [
+            {
+                "label": "Inputs",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8037440"
+                }
+            },
+            {
+                "label": "Outputs",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803748c"
+                }
+            },
+            {
+                "label": "Inputs Type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80373a8"
+                }
+            },
+            {
+                "label": "Outputs Type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80373f4"
+                }
+            },
+            {
+                "label": "Push Buttons",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8037864"
+                }
+            },
+            {
+                "label": "Numrator",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80376bc"
+                }
+            }
+        ],
+        "itemCount": 6
+    },
+    "MenuId_0x8037440": {
+        "type": 5,
+        "title": "Prog Input",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 100,
+                        "def": 100,
+                        "numOptions": 23,
+                        "numItems": 20,
+                        "options": "ListId_0x20005754",
+                        "itemLabels": "ListId_0x200059c0"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803748c": {
+        "type": 5,
+        "title": "Prog Output",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 200,
+                        "def": 200,
+                        "numOptions": 36,
+                        "numItems": 25,
+                        "options": "ListId_0x200057b0",
+                        "itemLabels": "ListId_0x20005a10"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80373a8": {
+        "type": 5,
+        "title": "Input Type",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 150,
+                        "def": 150,
+                        "numOptions": 2,
+                        "numItems": 20,
+                        "options": "ListId_0x20005908",
+                        "itemLabels": "ListId_0x200059c0"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80373f4": {
+        "type": 5,
+        "title": "Output Type",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 250,
+                        "def": 250,
+                        "numOptions": 2,
+                        "numItems": 25,
+                        "options": "ListId_0x20005908",
+                        "itemLabels": "ListId_0x20005a10"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80376bc": {
+        "type": 0,
+        "title": "Main_Board",
+        "items": [
+            {
+                "label": "Type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80375bc"
+                }
+            },
+            {
+                "label": "ParallelSetting",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8037524"
+                }
+            },
+            {
+                "label": "Sleep Light",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8037570"
+                }
+            },
+            {
+                "label": "Active Light",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80374d8"
+                }
+            }
+        ],
+        "itemCount": 4
+    },
+    "MenuId_0x80374d8": {
+        "type": 3,
+        "title": "Active_Light",
+        "items": [
+            {
+                "label": "Active Light",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 70,
+                        "def": 70,
+                        "minValue": 0,
+                        "maxValue": 20,
+                        "offset": 0,
+                        "factor": 5,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80375bc": {
+        "type": 4,
+        "title": "Main_PB_Type",
+        "items": [
+            {
+                "label": "C NUM Type",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 83,
+                        "def": 83,
+                        "numOptions": 2,
+                        "options": "ListId_0x20005684"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8037524": {
+        "type": 5,
+        "title": "Main_NUM_Parallel",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 600,
+                        "def": 600,
+                        "numOptions": 36,
+                        "numItems": 16,
+                        "options": "ListId_0x200057b0",
+                        "itemLabels": "ListId_0x20005abc"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8037570": {
+        "type": 3,
+        "title": "Sleep_Light",
+        "items": [
+            {
+                "label": "Sleep Light",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 69,
+                        "def": 69,
+                        "minValue": 0,
+                        "maxValue": 20,
+                        "offset": 0,
+                        "factor": 5,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8037864": {
+        "type": 0,
+        "title": "Carcodec PB",
+        "items": [
+            {
+                "label": "Type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80377a0"
+                }
+            },
+            {
+                "label": "ParallelSetting",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8037754"
+                }
+            },
+            {
+                "label": "Canceller",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80376cc"
+                }
+            }
+        ],
+        "itemCount": 3
+    },
+    "MenuId_0x80377a0": {
+        "type": 4,
+        "title": "Car_PB_Type",
+        "items": [
+            {
+                "label": "C PB Type",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 81,
+                        "def": 81,
+                        "numOptions": 2,
+                        "options": "ListId_0x2000567c"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8037754": {
+        "type": 5,
+        "title": "PB_Parallel",
+        "items": [
+            {
+                "label": "#",
+                "type": 13,
+                "data": {
+                    "MselectOne": {
+                        "values": 500,
+                        "def": 500,
+                        "numOptions": 13,
+                        "numItems": 12,
+                        "options": "ListId_0x200058a4",
+                        "itemLabels": "ListId_0x200058d8"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80376cc": {
+        "type": 4,
+        "title": "Main_PB_Cancel",
+        "items": [
+            {
+                "label": "PB Cancel",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 73,
+                        "def": 73,
+                        "numOptions": 2,
+                        "options": "ListId_0x20005924"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803fb28": {
+        "type": 0,
+        "title": "General",
+        "items": [
+            {
+                "label": "Num Of Stop",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b464"
+                }
+            },
+            {
+                "label": "BaseMent",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b3cc"
+                }
+            },
+            {
+                "label": "Sevice",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803cc10"
+                }
+            },
+            {
+                "label": "Travel Time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803d208"
+                }
+            },
+            {
+                "label": "level Time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80367fc"
+                }
+            },
+            {
+                "label": "Door",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80338c0"
+                }
+            },
+            {
+                "label": "Sound",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803cd30"
+                }
+            },
+            {
+                "label": "Floor",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803477c"
+                }
+            },
+            {
+                "label": "Landing",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80367b0"
+                }
+            },
+            {
+                "label": "Emergency",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803415c"
+                }
+            }
+        ],
+        "itemCount": 10
+    },
+    "MenuId_0x80338c0": {
+        "type": 0,
+        "title": "Door Settings",
+        "items": [
+            {
+                "label": "Door Time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033a74"
+                }
+            },
+            {
+                "label": "Num Of Door",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b418"
+                }
+            },
+            {
+                "label": "Control Type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033718"
+                }
+            }
+        ],
+        "itemCount": 3
+    },
+    "MenuId_0x8033a74": {
+        "type": 0,
+        "title": "Door Time",
+        "items": [
+            {
+                "label": "End DoorTime",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8034240"
+                }
+            },
+            {
+                "label": "Close Timeout",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80336cc"
+                }
+            },
+            {
+                "label": "URA Timeout",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033ac0"
+                }
+            },
+            {
+                "label": "Park Time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80337fc"
+                }
+            },
+            {
+                "label": "69 Debouncer",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8033634"
+                }
+            },
+            {
+                "label": "68 Debouncer",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80335e8"
+                }
+            },
+            {
+                "label": "Open Time",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80337b0"
+                }
+            }
+        ],
+        "itemCount": 7
+    },
+    "MenuId_0x803ca48": {
+        "type": 0,
+        "title": "Second Door",
+        "items": [],
+        "itemCount": 0
+    },
+    "MenuId_0x803cd30": {
+        "type": 0,
+        "title": "Sound Settings",
+        "items": [
+            {
+                "label": "Music Volume",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b380"
+                }
+            },
+            {
+                "label": "Talk Volume",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803cf14"
+                }
+            },
+            {
+                "label": "Welcome Floor",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803d9d0"
+                }
+            },
+            {
+                "label": "Gang Select",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80347c8"
+                }
+            }
+        ],
+        "itemCount": 4
+    },
+    "MenuId_0x803477c": {
+        "type": 0,
+        "title": "Floor_Settings",
+        "items": [
+            {
+                "label": "Park Floor",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803be4c"
+                }
+            },
+            {
+                "label": "Time To Park",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803d080"
+                }
+            },
+            {
+                "label": "Fire Floor",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803438c"
+                }
+            },
+            {
+                "label": "Waiting Floor",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803d984"
+                }
+            }
+        ],
+        "itemCount": 4
+    },
+    "MenuId_0x803b334": {
+        "type": 0,
+        "title": "Motor Safe",
+        "items": [
+            {
+                "label": "Enable",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0"
+                }
+            },
+            {
+                "label": "Fast OverC",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b160"
+                }
+            },
+            {
+                "label": "Slow OverC",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b1ac"
+                }
+            },
+            {
+                "label": "Time OverC",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b1f8"
+                }
+            },
+            {
+                "label": "Min Current",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0"
+                }
+            }
+        ],
+        "itemCount": 5
+    },
+    "MenuId_0x8034b04": {
+        "type": 0,
+        "title": "HYD Settings",
+        "items": [
+            {
+                "label": "StartSlow Del",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0"
+                }
+            },
+            {
+                "label": "StartFast Del",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0"
+                }
+            },
+            {
+                "label": "Star To Delta",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0"
+                }
+            },
+            {
+                "label": "MotorStartDel",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0"
+                }
+            },
+            {
+                "label": "MotorStopDel",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0"
+                }
+            }
+        ],
+        "itemCount": 5
+    },
+    "MenuId_0x803244c": {
+        "type": 0,
+        "title": "Calibration",
+        "items": [
+            {
+                "label": "Direction",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8032378"
+                }
+            },
+            {
+                "label": "Speed",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80323c4"
+                }
+            }
+        ],
+        "itemCount": 2
+    },
+    "MenuId_0x803415c": {
+        "type": 0,
+        "title": "Emergency",
+        "items": [
+            {
+                "label": "Direction",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80340c4"
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b584": {
+        "type": 0,
+        "title": "One CF Error",
+        "items": [
+            {
+                "label": "Enable",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803db00"
+                }
+            },
+            {
+                "label": "Timeout",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803db4c"
+                }
+            }
+        ],
+        "itemCount": 2
+    },
+    "MenuId_0x80367b0": {
+        "type": 0,
+        "title": "Landing",
+        "items": [
+            {
+                "label": "Based On",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x8032294"
+                }
+            },
+            {
+                "label": "Walking Lenth",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803d938"
+                }
+            },
+            {
+                "label": "Offset Stop",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803b4fc"
+                }
+            },
+            {
+                "label": "OffsetMode",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x80341a8"
+                }
+            },
+            {
+                "label": "Em 1CF Delay",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803da1c"
+                }
+            },
+            {
+                "label": "Level 1CF Del",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803da68"
+                }
+            }
+        ],
+        "itemCount": 6
+    },
+    "MenuId_0x803d938": {
+        "type": 3,
+        "title": "Walk Lenth",
+        "items": [
+            {
+                "label": "Walk Lenth",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 77,
+                        "def": 77,
+                        "minValue": 5,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "Cm"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b4fc": {
+        "type": 3,
+        "title": "Offset_Stop",
+        "items": [
+            {
+                "label": "Offset Stop",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1982,
+                        "def": 1982,
+                        "minValue": 0,
+                        "maxValue": 255,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "mm"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80341a8": {
+        "type": 4,
+        "title": "Offset_Mode",
+        "items": [
+            {
+                "label": "Offset Mode",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 1983,
+                        "def": 1983,
+                        "numOptions": 2,
+                        "options": "ListId_0x20005658"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8032294": {
+        "type": 4,
+        "title": "Based_On",
+        "items": [
+            {
+                "label": "Based On",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 2,
+                        "def": 2,
+                        "numOptions": 2,
+                        "options": "ListId_0x80368d8"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803da1c": {
+        "type": 3,
+        "title": "_1CF_Delay_Emg",
+        "items": [
+            {
+                "label": "Delay Emg",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1988,
+                        "def": 1988,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": -20,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803da68": {
+        "type": 3,
+        "title": "_1CF_Delay_Level",
+        "items": [
+            {
+                "label": "Delay Level",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1989,
+                        "def": 1989,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": -20,
+                        "addition": 0,
+                        "unit": "s"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b464": {
+        "type": 3,
+        "title": "Num Of Stops",
+        "items": [
+            {
+                "label": "Num Of Stops",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1,
+                        "def": 1,
+                        "minValue": 2,
+                        "maxValue": 60,
+                        "offset": 0,
+                        "factor": 0,
+                        "addition": 0,
+                        "unit": "N"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803d208": {
+        "type": 3,
+        "title": "Travel Time",
+        "items": [
+            {
+                "label": "Travel Time",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 10,
+                        "def": 10,
+                        "minValue": 0,
+                        "maxValue": 200,
+                        "offset": 0,
+                        "factor": 0,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80367fc": {
+        "type": 3,
+        "title": "Level_time",
+        "items": [
+            {
+                "label": "Level_time",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 30,
+                        "def": 30,
+                        "minValue": 0,
+                        "maxValue": 50,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033764": {
+        "type": 3,
+        "title": "Open Delay",
+        "items": [
+            {
+                "label": "Open Delay",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 11,
+                        "def": 11,
+                        "minValue": 0,
+                        "maxValue": 200,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033680": {
+        "type": 3,
+        "title": "Close Delay",
+        "items": [
+            {
+                "label": "Close Delay",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 12,
+                        "def": 12,
+                        "minValue": 0,
+                        "maxValue": 200,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8034240": {
+        "type": 3,
+        "title": "End D Time",
+        "items": [
+            {
+                "label": "End D Time",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 13,
+                        "def": 13,
+                        "minValue": 0,
+                        "maxValue": 10,
+                        "offset": 0,
+                        "factor": 0,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033ac0": {
+        "type": 3,
+        "title": "Ura_Timeout",
+        "items": [
+            {
+                "label": "URA Timeout",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 33,
+                        "def": 33,
+                        "minValue": 0,
+                        "maxValue": 10,
+                        "offset": 0,
+                        "factor": 0,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b3cc": {
+        "type": 3,
+        "title": "BaseMent",
+        "items": [
+            {
+                "label": "BaseMent",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 1991,
+                        "def": 1991,
+                        "minValue": 0,
+                        "maxValue": 7,
+                        "offset": 0,
+                        "factor": 0,
+                        "addition": 0,
+                        "unit": "N"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b160": {
+        "type": 3,
+        "title": "Fast Over C",
+        "items": [
+            {
+                "label": "Fast Over ",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 36,
+                        "def": 36,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 0,
+                        "addition": 0,
+                        "unit": "A"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b1ac": {
+        "type": 3,
+        "title": "Slow Over C",
+        "items": [
+            {
+                "label": "Slow Over ",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 37,
+                        "def": 37,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 0,
+                        "addition": 0,
+                        "unit": "A"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b1f8": {
+        "type": 3,
+        "title": "Time Over C",
+        "items": [
+            {
+                "label": "Time Over C",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 38,
+                        "def": 38,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 10,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803cc10": {
+        "type": 0,
+        "title": "Sevice",
+        "items": [
+            {
+                "label": "Prog Mode",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803cb4c"
+                }
+            },
+            {
+                "label": "Type",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803cab4"
+                }
+            },
+            {
+                "label": "Door Sslect",
+                "type": 0,
+                "data": {
+                    "submenu": "MenuId_0x803cb00"
+                }
+            }
+        ],
+        "itemCount": 3
+    },
+    "MenuId_0x803cb4c": {
+        "type": 4,
+        "title": "prog_Mode",
+        "items": [
+            {
+                "label": "prog Mode",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 45,
+                        "def": 45,
+                        "numOptions": 2,
+                        "options": "ListId_0x20005afc"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803cab4": {
+        "type": 4,
+        "title": "Service_Type",
+        "items": [
+            {
+                "label": "Service Type",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 47,
+                        "def": 47,
+                        "numOptions": 5,
+                        "options": "ListId_0x8036c30"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803cb00": {
+        "type": 4,
+        "title": "Door_Select",
+        "items": [
+            {
+                "label": "Door Select",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 46,
+                        "def": 46,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036954"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80337fc": {
+        "type": 3,
+        "title": "Park Time",
+        "items": [
+            {
+                "label": "Park Time",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 15,
+                        "def": 15,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 0,
+                        "addition": 0,
+                        "unit": "M"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033634": {
+        "type": 3,
+        "title": "69 Debounce",
+        "items": [
+            {
+                "label": "69 Debounce",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 16,
+                        "def": 16,
+                        "minValue": 0,
+                        "maxValue": 30,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80335e8": {
+        "type": 3,
+        "title": "68 Debounce",
+        "items": [
+            {
+                "label": "68 Debounce",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 17,
+                        "def": 17,
+                        "minValue": 0,
+                        "maxValue": 30,
+                        "offset": 0,
+                        "factor": -10,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80336cc": {
+        "type": 3,
+        "title": "Close Timeout",
+        "items": [
+            {
+                "label": "Close Timeout",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 14,
+                        "def": 14,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 0,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80337b0": {
+        "type": 3,
+        "title": "Open Time",
+        "items": [
+            {
+                "label": "Open Time",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 23,
+                        "def": 23,
+                        "minValue": 0,
+                        "maxValue": 100,
+                        "offset": 0,
+                        "factor": 0,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8033718": {
+        "type": 4,
+        "title": "Control Type",
+        "items": [
+            {
+                "label": "Control Type",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 3,
+                        "def": 3,
+                        "numOptions": 3,
+                        "options": "ListId_0x8036924"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b418": {
+        "type": 4,
+        "title": "NumOfDoor",
+        "items": [
+            {
+                "label": "Num Of Door",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 18,
+                        "def": 18,
+                        "numOptions": 3,
+                        "options": "ListId_0x8036b18"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803cf14": {
+        "type": 3,
+        "title": "Talk Volume",
+        "items": [
+            {
+                "label": "Volume",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 20,
+                        "def": 20,
+                        "minValue": 0,
+                        "maxValue": 20,
+                        "offset": 0,
+                        "factor": 5,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803b380": {
+        "type": 3,
+        "title": "Music Volume",
+        "items": [
+            {
+                "label": "Volume",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 19,
+                        "def": 19,
+                        "minValue": 0,
+                        "maxValue": 20,
+                        "offset": 0,
+                        "factor": 5,
+                        "addition": 0,
+                        "unit": "%"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80347c8": {
+        "type": 4,
+        "title": "Gang Select",
+        "items": [
+            {
+                "label": "Gang",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 22,
+                        "def": 22,
+                        "numOptions": 4,
+                        "options": "ListId_0x8036a98"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803d9d0": {
+        "type": 4,
+        "title": "Welcome Floor",
+        "items": [
+            {
+                "label": "Welcome F",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 21,
+                        "def": 21,
+                        "numOptions": 61,
+                        "options": "ListId_0x8036da8"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803438c": {
+        "type": 4,
+        "title": "Fire_Floor",
+        "items": [
+            {
+                "label": "Fire Floor",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 26,
+                        "def": 26,
+                        "numOptions": 50,
+                        "options": "ListId_0x80369a8"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803be4c": {
+        "type": 4,
+        "title": "Park_Floor",
+        "items": [
+            {
+                "label": "Park F",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 24,
+                        "def": 24,
+                        "numOptions": 50,
+                        "options": "ListId_0x80369a8"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803d984": {
+        "type": 3,
+        "title": "Wating_Floor",
+        "items": [
+            {
+                "label": "Wating F",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 27,
+                        "def": 27,
+                        "minValue": 0,
+                        "maxValue": 200,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803d080": {
+        "type": 3,
+        "title": "Time To Park",
+        "items": [
+            {
+                "label": "Time To P",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 25,
+                        "def": 25,
+                        "minValue": 0,
+                        "maxValue": 60,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "M"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80323c4": {
+        "type": 4,
+        "title": "Speed",
+        "items": [
+            {
+                "label": "Speed",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 6,
+                        "def": 6,
+                        "numOptions": 3,
+                        "options": "ListId_0x8036908"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8032378": {
+        "type": 4,
+        "title": "Direction",
+        "items": [
+            {
+                "label": "Direction",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 5,
+                        "def": 5,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036900"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x80340c4": {
+        "type": 4,
+        "title": "Emergency_Dir",
+        "items": [
+            {
+                "label": "Enable",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 9,
+                        "def": 9,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036930"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x8034110": {
+        "type": 4,
+        "title": "Emergency_Enable",
+        "items": [
+            {
+                "label": "Enable",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 8,
+                        "def": 8,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036980"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803db4c": {
+        "type": 3,
+        "title": "TimeOut",
+        "items": [
+            {
+                "label": "TimeOut",
+                "type": 11,
+                "data": {
+                    "setting": {
+                        "value": 35,
+                        "def": 35,
+                        "minValue": 0,
+                        "maxValue": 200,
+                        "offset": 0,
+                        "factor": 1,
+                        "addition": 0,
+                        "unit": "S"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "MenuId_0x803db00": {
+        "type": 4,
+        "title": "Enable",
+        "items": [
+            {
+                "label": "Enable",
+                "type": 12,
+                "data": {
+                    "settingOption": {
+                        "value": 7,
+                        "def": 7,
+                        "numOptions": 2,
+                        "options": "ListId_0x8036980"
+                    }
+                }
+            }
+        ],
+        "itemCount": 1
+    },
+    "ListId_0x8036bc0": [
+        "?",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "G",
+        "P",
+        "B",
+        "r",
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "-"
+    ],
+    "ListId_0x8036c54": [
+        "???",
+        "L1 ",
+        "L2 ",
+        "L3 ",
+        "L4 ",
+        "L5 ",
+        "L6 ",
+        "L7 ",
+        "L8 ",
+        "L9 ",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L22",
+        "L23",
+        "L24",
+        "Grn",
+        "Labi",
+        "Roof",
+        "Pool",
+        "Par ",
+        "Par1",
+        "Par2",
+        "B  ",
+        "B1 ",
+        "B2 ",
+        "L25",
+        "L26",
+        "L27",
+        "L28",
+        "L29",
+        "L30",
+        "L31",
+        "L32",
+        "L33",
+        "L34",
+        "L35",
+        "L36",
+        "L37",
+        "L38",
+        "L39",
+        "L40",
+        "L41",
+        "L42",
+        "L43",
+        "L44",
+        "L45",
+        "L46",
+        "L47",
+        "L48",
+        "L49",
+        "L50",
+        "Tr1",
+        "Tr2",
+        "Tr3",
+        "Tr4",
+        "Tr5",
+        "Tr6",
+        "Tr7",
+        "Tr8",
+        "Tr9",
+        "Tr10",
+        "Tr11",
+        "Tr12",
+        "Tr13",
+        "Tr14",
+        "Tr15",
+        "Tr16",
+        "Tr17",
+        "Tr18",
+        "Tr19",
+        "Tr20"
+    ],
+    "ListId_0x80368ec": ["2", "1", "0", "-1", "-2"],
+    "ListId_0x80368e0": ["2", "1", "0"],
+    "ListId_0x8036c20": ["Slow", "Rev", "Med", "Fast"],
+    "ListId_0x8036b3c": ["---", "En"],
+    "ListId_0x8036b2c": ["---", "VIP", "UP", "DOWN"],
+    "ListId_0x8036b24": ["---", "VIP"],
+    "ListId_0x20005910": ["Dis", "Dublex", "HallEx"],
+    "ListId_0x20005650": ["Dis", "En"],
+    "ListId_0x20005a74": ["Dis", "En"],
+    "ListId_0x8036d98": ["3VF", "HYD", "2Speed", "HEVOS"],
+    "ListId_0x8036b60": ["Same", "Reverse"],
+    "ListId_0x8036b44": [
+        "MS 1",
+        "MS 2",
+        "MS 3",
+        "MS 4",
+        "MS 5",
+        "MS 6",
+        "MS 7"
+    ],
+    "ListId_0x803695c": ["Parallel", "Analog", "MOD-HD5L", "MOD-L1000A"],
+    "ListId_0x8036b68": ["1200", "4800", "9600", "19200", "38400", "115200"],
+    "ListId_0x8036b80": ["8-N-1", "8-N-2"],
+    "ListId_0x20005940": ["Dis", "En"],
+    "ListId_0x2000592c": ["Reverse", "UNB", "Lost", "over-V", "under-V"],
+    "ListId_0x2000591c": ["Only R", " R-S-T"],
+    "ListId_0x20005644": ["Off", "Slave", "Master"],
+    "ListId_0x2000568c": [
+        "---",
+        "IN1",
+        "IN2",
+        "IN3",
+        "IN4",
+        "IN5",
+        "IN6",
+        "IN7",
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9",
+        "H10",
+        "H11",
+        "H12"
+    ],
+    "ListId_0x20005948": [
+        "OVL",
+        "FUL",
+        "FAN",
+        "PHC1",
+        "PHC2",
+        "PHC3",
+        "DO1",
+        "DO2",
+        "DO3",
+        "DC",
+        "RES1",
+        "RES2",
+        "RES3",
+        "RES4",
+        "RES5"
+    ],
+    "ListId_0x200056dc": [
+        "---",
+        "CM1",
+        "CM2",
+        "PO1",
+        "PO2",
+        "PO3",
+        "PO4",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9",
+        "H10",
+        "H11",
+        "H12"
+    ],
+    "ListId_0x20005984": [
+        "CLOSE1",
+        "CLOSE2",
+        "CLOSE3",
+        "OPEN1",
+        "OPEN2",
+        "OPEN3",
+        "FAN",
+        "OVLO",
+        "GANG",
+        "AVA",
+        "RES1",
+        "RES2",
+        "RES3",
+        "RES4",
+        "RES5"
+    ],
+    "ListId_0x20005908": ["NO+", "NC"],
+    "ListId_0x20005668": ["Parallel", "Serial Ext", "Ravis Panel"],
+    "ListId_0x20005a7c": [
+        "RA",
+        "RB",
+        "RC",
+        "RD",
+        "RE",
+        "RF",
+        "RG",
+        "UP",
+        "DN",
+        "LA",
+        "LB",
+        "LC",
+        "LD",
+        "LE",
+        "LF",
+        "LG"
+    ],
+    "ListId_0x20005674": ["Parallel", "Ravis Panel"],
+    "ListId_0x20005870": [
+        "---",
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9",
+        "H10",
+        "H11",
+        "H12"
+    ],
+    "ListId_0x20005840": [
+        "PB1",
+        "PB2",
+        "PB3",
+        "PB4",
+        "PB5",
+        "PB6",
+        "PB7",
+        "PB8",
+        "PB9",
+        "PB10",
+        "PB11",
+        "PB12"
+    ],
+    "ListId_0x20005660": ["Disable", "Enable"],
+    "ListId_0x20005754": [
+        "---",
+        "CF3",
+        "1CF",
+        "CAN",
+        "CA1",
+        "IN1",
+        "IN2",
+        "IN3",
+        "IN4",
+        "IN5",
+        "IN6",
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9",
+        "H10",
+        "H11",
+        "H12"
+    ],
+    "ListId_0x200059c0": [
+        "CF3",
+        "1CF",
+        "CAN",
+        "CA1",
+        "IFN",
+        "IF1",
+        "FLTDR",
+        "RLS",
+        "DRC",
+        "FIRE",
+        "OVL",
+        "FUL",
+        "RELUP",
+        "RELDN",
+        "ZADO",
+        "Ready",
+        "RES2",
+        "RES3",
+        "RES4",
+        "RES5"
+    ],
+    "ListId_0x200057b0": [
+        "---",
+        "O+-",
+        "PO1",
+        "PO2",
+        "PO3",
+        "PO4",
+        "OC1",
+        "OC2",
+        "OC3",
+        "OC4",
+        "OC5",
+        "OC6",
+        "OC7",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9",
+        "H10",
+        "H11",
+        "H12"
+    ],
+    "ListId_0x20005a10": [
+        "MUP",
+        "MDN",
+        "MV0",
+        "MV1",
+        "MV2",
+        "TC",
+        "ST.DL",
+        "URA",
+        "FAN",
+        "ENOUT",
+        "RELAY",
+        "UPSOUT",
+        "UPSREF",
+        "ADOOUT",
+        "1CFOUT",
+        "DRV.RST",
+        "ERS",
+        "ENR",
+        "PH-F",
+        "RES5",
+        "CLOSE1",
+        "CLOSE2",
+        "CLOSE3",
+        "CLOSE4",
+        "CLOSE5"
+    ],
+    "ListId_0x20005684": ["Parallel", "Ravis EXT "],
+    "ListId_0x20005abc": [
+        "RA",
+        "RB",
+        "RC",
+        "RD",
+        "RE",
+        "RF",
+        "RG",
+        "UP",
+        "DN",
+        "LA",
+        "LB",
+        "LC",
+        "LD",
+        "LE",
+        "LF",
+        "LG"
+    ],
+    "ListId_0x2000567c": ["Parallel", "Ravis Panel"],
+    "ListId_0x200058a4": [
+        "---",
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9",
+        "H10",
+        "H11",
+        "H12"
+    ],
+    "ListId_0x200058d8": [
+        "PB1",
+        "PB2",
+        "PB3",
+        "PB4",
+        "PB5",
+        "PB6",
+        "PB7",
+        "PB8",
+        "PB9",
+        "PB10",
+        "PB11",
+        "PB12"
+    ],
+    "ListId_0x20005924": ["Disable", "Enable"],
+    "ListId_0x20005658": ["Dis", "En"],
+    "ListId_0x80368d8": ["CF3_Sensor", "Encoder"],
+    "ListId_0x20005afc": ["Auto", "Costom"],
+    "ListId_0x8036c30": [
+        "Full Collective",
+        "Collective DN",
+        "Collective UP",
+        "Collective U/D",
+        "Keypad"
+    ],
+    "ListId_0x8036954": ["Dis", "En"],
+    "ListId_0x8036924": ["Loaded", "68", "69"],
+    "ListId_0x8036b18": ["1", "2", "3"],
+    "ListId_0x8036a98": ["OFF", "1", "2", "3"],
+    "ListId_0x8036da8": [
+        "OFF",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60"
+    ],
+    "ListId_0x80369a8": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+    ],
+    "ListId_0x8036908": ["Slow", "Rev", "Med"],
+    "ListId_0x8036900": ["UP", "DOWN"],
+    "ListId_0x8036930": ["UP", "DOWN"],
+    "ListId_0x8036980": ["Enable", "Disable"]
+}
