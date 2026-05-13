@@ -8,14 +8,23 @@ enum typeMenuEnum {
     SUBMENU = "SUBMENU",
     SETTING_ON_PARAMETER = "SETTING_ON_PARAMETER",
     SETTING_ON_SELECT = "SETTING_ON_SELECT",
-    MULTY_SELECT_ONE_STAGE = "MULTY_SELECT_ONE_STAGE",
-    MULTY_GROUP = "MULTY_GROUP",
+    SETTING_MULTY_SELECT = "SETTING_MULTY_SELECT",
+    SETTING_MULTY_GROUP = "SETTING_MULTY_GROUP",
 }
+//
+
+type DescriptionType = Record<
+    "english" | "persian" | "arabic" | "turkish" | "russian" | "german",
+    string
+>;
+
+type MiniDescriptionType = Record<"english" | "persian", string>;
 
 type optionType = {
     value: string;
-    describe: string;
+    description: MiniDescriptionType;
 };
+
 type settingOneParameterType = {
     address: number;
     addition: number;
@@ -23,19 +32,22 @@ type settingOneParameterType = {
     factor: number;
     minValue: number;
     maxValue: number;
-    lable: string;
+    label: string;
+    description: DescriptionType;
 };
 
 type settingOneSelectType = {
     address: number;
     options: optionType[];
-    lable: string;
+    label: string;
+    description: DescriptionType;
 };
 
 type settingMultySelectType = {
     addresses: number[];
     options: optionType[];
     itemLabels: optionType[];
+    description: DescriptionType;
 };
 
 type settingMultyGroupType = {
@@ -54,8 +66,6 @@ type ParanetIdLableType = {
     id: string;
     label: string;
 };
-
-type DescriptionType = Record<"en" | "fa", string>;
 
 type menuType = {
     id: string;
@@ -140,11 +150,33 @@ let newMenus: menuType[] = tableId.map((table) => {
         type: chaneType(oldMenu.menu),
         data: changeData(oldMenu.menu),
         description: {
-            en: "",
-            fa: "",
+            english: "",
+            persian: "",
+            german: "",
+            russian: "",
+            turkish: "",
+            arabic: "",
         },
     };
 });
+
+function createEmptyDescription(): DescriptionType {
+    return {
+        english: "",
+        persian: "",
+        german: "",
+        russian: "",
+        turkish: "",
+        arabic: "",
+    };
+}
+
+function createEmptyMiniDescription(): MiniDescriptionType {
+    return {
+        english: "",
+        persian: "",
+    };
+}
 
 function changeData(menu: currentMenuType): menuDataType {
     if (menu.type === oldMenuTypes.MENU_TYPE_SETTING_MULTY_GROUP) {
@@ -155,25 +187,30 @@ function changeData(menu: currentMenuType): menuDataType {
             if (item.data?.settingOption) {
                 const settingOption = item.data.settingOption;
                 let itemSelect: settingOneSelectType = {
-                    lable: item.label,
+                    label: item.label,
                     address: settingOption.value,
                     options: findList(settingOption.options),
+                    description: createEmptyDescription(),
                 };
                 extract.push({ settingOneSelect: itemSelect });
             } else if (item.data?.setting) {
                 const setting = item.data.setting;
                 let itemNumber: settingOneParameterType = {
-                    lable: item.label,
+                    label: item.label,
                     address: setting.value,
                     addition: setting.addition,
                     unit: setting.unit,
                     factor: setting.factor,
                     minValue: setting.minValue,
                     maxValue: setting.maxValue,
+                    description: createEmptyDescription(),
                 };
                 extract.push({ settingOneParameter: itemNumber });
             }
         }
+        return {
+            settingMultyGroup: extract,
+        };
     } else if (
         menu.type === oldMenuTypes.MENU_TYPE_SETTING_MULTY_SELECT_ONE_STAGE
     ) {
@@ -199,6 +236,7 @@ function changeData(menu: currentMenuType): menuDataType {
                         )),
                         options,
                         itemLabels,
+                        description: createEmptyDescription(),
                     },
                 };
             }
@@ -210,9 +248,10 @@ function changeData(menu: currentMenuType): menuDataType {
 
                 return {
                     settingOneSelect: {
-                        lable: item.label,
+                        label: item.label,
                         address: settingOption.value,
                         options: findList(settingOption.options),
+                        description: createEmptyDescription(),
                     },
                 };
             }
@@ -224,13 +263,14 @@ function changeData(menu: currentMenuType): menuDataType {
                 const setting = item.data.setting;
                 return {
                     settingOneParameter: {
-                        lable: item.label,
+                        label: item.label,
                         address: setting.value,
                         addition: setting.addition,
                         unit: setting.unit,
                         factor: setting.factor,
                         minValue: setting.minValue,
                         maxValue: setting.maxValue,
+                        description: createEmptyDescription(),
                     },
                 };
             }
@@ -245,7 +285,7 @@ function findList(id: string): optionType[] {
     if (found != undefined) {
         return found.list.map<optionType>((value) => ({
             value: value,
-            describe: "",
+            description: createEmptyMiniDescription(),
         }));
     } else return [];
 }
@@ -259,7 +299,10 @@ function chaneType(menu: currentMenuType) {
         return typeMenuEnum.SETTING_ON_PARAMETER;
     if (menu.type == oldMenuTypes.MENU_TYPE_SETTING_ON_SELECT)
         return typeMenuEnum.SETTING_ON_SELECT;
-
+    if (menu.type == oldMenuTypes.MENU_TYPE_SETTING_MULTY_GROUP)
+        return typeMenuEnum.SETTING_MULTY_GROUP;
+    if (menu.type == oldMenuTypes.MENU_TYPE_SETTING_MULTY_SELECT_ONE_STAGE)
+        return typeMenuEnum.SETTING_MULTY_SELECT;
     return typeMenuEnum.UNDEFINDED;
 }
 
@@ -267,30 +310,24 @@ function findParent(id: string): ParanetIdLableType[] {
     let idsLaels: ParanetIdLableType[] = [];
     oldMenus.forEach((menu) => {
         const oldMenu = menu.menu;
-        if (
-            oldMenu.type === oldMenuTypes.MENU_TYPE_SUBMENU ||
-            oldMenu.type === oldMenuTypes.MENU_TYPE_SUBMENU_GRAPHC
-        ) {
-            oldMenu.items.forEach((item) => {
-                if (
-                    item.data.submenu === id ||
-                    item.data.subMenuGraphic?.submenu == id
-                ) {
-                    const table: tableIdType | undefined = tableId.find(
-                        (table) => {
-                            return table.oldId === menu.id;
-                        },
-                    );
-                    if (table != undefined) {
-                        const idLable: ParanetIdLableType = {
-                            id: table.newId,
-                            label: item.label,
-                        };
-                        idsLaels.push(idLable);
-                    }
+
+        oldMenu.items.forEach((item) => {
+            if (
+                item.data.submenu === id ||
+                item.data.subMenuGraphic?.submenu == id
+            ) {
+                const table: tableIdType | undefined = tableId.find((table) => {
+                    return table.oldId === menu.id;
+                });
+                if (table != undefined) {
+                    const idLable: ParanetIdLableType = {
+                        id: table.newId,
+                        label: item.label,
+                    };
+                    idsLaels.push(idLable);
                 }
-            });
-        }
+            }
+        });
     });
 
     return idsLaels;
@@ -311,15 +348,18 @@ const api = axios.create({
     baseURL: "http://localhost:3000",
 });
 
-newMenus.forEach((menu) => {
-    api.post("/menu", menu).then(
-        (response) => {
-            console.log(`save on sql id : ${menu.id}`);
-        },
-        (error) => {
-            console.log(error);
-        },
-    );
+newMenus.forEach(async (menu) => {
+    // if (menu.type == typeMenuEnum.SETTING_MULTY_GROUP) {
+    try {
+        const res = await api.post("/menu", menu);
+        console.log(`save on sql id : ${menu.id}`);
+    } catch (err) {
+        console.log(err);
+    }
+
+    // console.log(menu);
+    console.log("------------------------------");
+    // }
 });
 
 setInterval(() => {
