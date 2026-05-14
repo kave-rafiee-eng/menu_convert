@@ -3,7 +3,7 @@ import { oldMenuTypes } from "./oldmenudef.ts";
 import type { currentMenuType } from "./oldmenutypes.ts";
 
 //--------------------- new Menu Types
-enum typeMenuEnum {
+export enum typeMenuEnum {
     UNDEFINDED = "UNDEFINDED",
     SUBMENU = "SUBMENU",
     SETTING_ON_PARAMETER = "SETTING_ON_PARAMETER",
@@ -13,19 +13,19 @@ enum typeMenuEnum {
 }
 //
 
-type DescriptionType = Record<
+export type DescriptionType = Record<
     "english" | "persian" | "arabic" | "turkish" | "russian" | "german",
     string
 >;
 
-type MiniDescriptionType = Record<"english" | "persian", string>;
+export type MiniDescriptionType = Record<"english" | "persian", string>;
 
-type optionType = {
+export type optionType = {
     value: string;
     description: MiniDescriptionType;
 };
 
-type settingOneParameterType = {
+export type settingOneParameterType = {
     address: number;
     addition: number;
     unit: string;
@@ -34,46 +34,50 @@ type settingOneParameterType = {
     maxValue: number;
     label: string;
     description: DescriptionType;
+    additional_description_for_ai_assistant: MiniDescriptionType;
 };
 
-type settingOneSelectType = {
+export type settingOneSelectType = {
     address: number;
     options: optionType[];
     label: string;
     description: DescriptionType;
+    additional_description_for_ai_assistant: MiniDescriptionType;
 };
 
-type settingMultySelectType = {
+export type settingMultySelectType = {
     addresses: number[];
     options: optionType[];
     itemLabels: optionType[];
     description: DescriptionType;
+    additional_description_for_ai_assistant: MiniDescriptionType;
 };
 
-type settingMultyGroupType = {
+export type settingMultyGroupType = {
     settingOneParameter?: settingOneParameterType;
     settingOneSelect?: settingOneSelectType;
 };
 
-type menuDataType = {
+export type menuDataType = {
     settingOneParameter?: settingOneParameterType;
     settingOneSelect?: settingOneSelectType;
     settingMultySelect?: settingMultySelectType;
     settingMultyGroup?: settingMultyGroupType[];
 };
 
-type ParanetIdLableType = {
+export type ParanetIdLableType = {
     id: string;
     label: string;
 };
 
-type menuType = {
+export type menuType = {
     id: string;
     parentId: ParanetIdLableType[];
     lable: string | undefined;
     type: typeMenuEnum;
     data: menuDataType;
     description: DescriptionType;
+    additional_description_for_ai_assistant: MiniDescriptionType;
 };
 
 //------------------------------------------
@@ -157,6 +161,7 @@ let newMenus: menuType[] = tableId.map((table) => {
             turkish: "",
             arabic: "",
         },
+        additional_description_for_ai_assistant: createEmptyMiniDescription(),
     };
 });
 
@@ -191,6 +196,8 @@ function changeData(menu: currentMenuType): menuDataType {
                     address: settingOption.value,
                     options: findList(settingOption.options),
                     description: createEmptyDescription(),
+                    additional_description_for_ai_assistant:
+                        createEmptyMiniDescription(),
                 };
                 extract.push({ settingOneSelect: itemSelect });
             } else if (item.data?.setting) {
@@ -204,6 +211,8 @@ function changeData(menu: currentMenuType): menuDataType {
                     minValue: setting.minValue,
                     maxValue: setting.maxValue,
                     description: createEmptyDescription(),
+                    additional_description_for_ai_assistant:
+                        createEmptyMiniDescription(),
                 };
                 extract.push({ settingOneParameter: itemNumber });
             }
@@ -237,6 +246,8 @@ function changeData(menu: currentMenuType): menuDataType {
                         options,
                         itemLabels,
                         description: createEmptyDescription(),
+                        additional_description_for_ai_assistant:
+                            createEmptyMiniDescription(),
                     },
                 };
             }
@@ -252,6 +263,8 @@ function changeData(menu: currentMenuType): menuDataType {
                         address: settingOption.value,
                         options: findList(settingOption.options),
                         description: createEmptyDescription(),
+                        additional_description_for_ai_assistant:
+                            createEmptyMiniDescription(),
                     },
                 };
             }
@@ -271,6 +284,8 @@ function changeData(menu: currentMenuType): menuDataType {
                         minValue: setting.minValue,
                         maxValue: setting.maxValue,
                         description: createEmptyDescription(),
+                        additional_description_for_ai_assistant:
+                            createEmptyMiniDescription(),
                     },
                 };
             }
